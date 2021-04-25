@@ -1,0 +1,145 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+
+    font-family: "Railway", fantasy;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8)), url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    position: absolute;
+    color: rgba(240, 248, 255, 0.18);
+    font-size: 10vh;
+    margin-left: -450px;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    box-shadow: 7px 2px 5px rgba(192, 255, 238, 0.67);
+        
+    
+}
+p{
+    color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -165px;
+    font-size: 7vh;
+    text-transform: uppercase;
+}
+
+
+#progressBarContainer {
+    transform: rotate(90deg);
+    margin-left: 12px;
+
+}
+
+.selector {
+    position: absolute;
+    margin-top: 200px;
+    width: 90px;
+    
+    border-radius: 5rem;
+    width: 5rem;
+    height: 5rem;
+    font-weight: bold;
+    
+    
+}
+
+#hours {
+    position: absolute;
+    margin-left: -220px;
+    background-color: rgba(239, 0, 229, 0.7);
+    padding-left: 7px;
+
+}
+
+#minutes {
+    position: absolute;
+    margin-left: -110px;
+    background-color: rgba(0, 217, 245, 0.7);
+    padding-left: 15px;
+}
+
+#seconds {
+    position: absolute;
+    margin-left: -5px;
+    background-color: rgba(29, 0, 255, 0.7);
+    padding-left: 15px;
+    
+}
+
+.buttonSection {
+    position: absolute;
+
+}
+
+.button1 {
+    margin-left: -30px;
+    float: left;
+}
+
+.button2 {
+    margin-left: 620px;
+}
+
+.roundButton{
+    border-radius:50%;
+    background-color: white;
+    border: 0;
+    width: 6rem;
+    height: 6rem;
+    font-size: 1rem;
+}
+
+#start{
+    background-color: rgba(0, 255, 10, 0.61);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#cancel{
+     background-color: rgba(255, 0, 0, 0.83);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
